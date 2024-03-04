@@ -1,11 +1,18 @@
-Photo References
-Photo by <a href="https://unsplash.com/@hydngallery?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Haidan</a> on <a href="https://unsplash.com/photos/kaaba-mecca-IAwnp88Fz8Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-Photo by <a href="https://unsplash.com/@izuddinhelmi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Izuddin Helmi Adnan</a> on <a href="https://unsplash.com/photos/kaaba-praying-ground-JFirQekVo3U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-Photo by <a href="https://unsplash.com/@afudaru?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Afdhallul Ziqri</a> on <a href="https://unsplash.com/photos/people-under-pillars-with-roofs-if33Kw08PIw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-Photo by <a href="https://unsplash.com/@ryanpp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ryan Pradipta Putra</a> on <a href="https://unsplash.com/photos/white-castle-MWJ7JpFBlGk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-Photo by <a href="https://unsplash.com/@rezkitrianto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rezki Trianto</a> on <a href="https://unsplash.com/photos/people-walking-on-pathway-near-brown-concrete-building-during-daytime-GSXeIGXxgyw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-Photo by Muhammad  Khawar Nazir: https://www.pexels.com/photo/pilgrims-praying-in-front-of-kaaba-in-the-great-mosque-of-mecca-18996539/
-Photo by Konevi: https://www.pexels.com/photo/dome-buildings-during-golden-hour-2830460/
-Photo by Yasir Gürbüz: https://www.pexels.com/photo/the-green-dome-at-the-prophets-mosque-and-the-bab-al-baqi-minaret-12593614/ 
+color scheme
+primary - for header and colored section
+#40A2E3
 
-  
+secondary colors - for the announcement
+#FFA500
+#800080
+#008000
+
+Tetiary color - for the footer and button
+#4682B4
+
+whatapp
+https://wa.link/roqrku
+
+gmail
+romfawzglobal@gmail.com
+
