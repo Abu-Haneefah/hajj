@@ -1,8 +1,11 @@
-body{
-    font-family: 'Montserrat-Bold';
-    padding: 0;
-    margin: 0;
+html,body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
+
 #top {background: #121212;padding: 2px 0 0; color: #bdbdbd;font-size:13px;}
 #top ul.top-link {margin-top: 7px;}
 
@@ -55,20 +58,6 @@ body{
     margin-top: 10px;
 }
 
-.but{
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 20px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #40A2E3;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-.but:hover{
-    background-color: #000;
-}
-
 a{
     text-decoration: none;
 }
@@ -99,49 +88,53 @@ a{
 }
 
 /* Top */
-.carousel{
-    margin: 0;
-    height: 80%;
+#carouselIntro{
+    margin-top: 2px;
+    width: 100%;
+    overflow: hidden; 
 }
+.carousel-background{  
+       height: 600px; 
+}
+#im1{
+        background: url(../images/mecca.jpg);     
+        background-position: center 80%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+}
+#im2{
+    background: url(../images/medina2.jpg);    
+    background-position: center 80%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
 .caption1{
     font-family: 'Ubuntu';
     font-size: 2.5em;
     font-stretch: expanded;
     font-weight: 900;
     padding-bottom: 30px;
-    color: white;
+    color: #FFFFFF;  
 }
 .caption2{
     font-family: 'Ubuntu';
-    background: #4055A5;
-    font-size: 1.5em;
-    font-stretch: expanded;
-    font-weight: 500;
-    color: white;
-    padding-top: 20px;
-
+    font-size: 1.2em;
+    font-weight: 200;
+    color: #FFFFFF;
+    padding: 20px 10px;
 }
+
 .caption1:hover{
     color: #3B69A5;
-}
-
-
-.cara-img{
-    opacity: 70%;  
-}
-.text-overlay{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
 }
 
 /* INTRO HEADER */
 .carousel-control-prev, .carousel-control-next{
     opacity: 2%;
-}
+}   
 /* INFO SECTION */
 .pack{
     height: 200px;
@@ -154,35 +147,32 @@ a{
     padding: 5%;
     color: white;
     line-height: 1.5;
-    font-family:'Ubuntu';
+
 }
 ol, ul{
     list-style: none;
 }
-.sch{
-    font-family: 'Montserrat-Bold';
-    font-weight: bold;
-}
-
 
 /* PACKAGES SECTION */
-
 #packages{
     font-family: 'Montserrat-Bold';
     font-weight: bold;
     text-align: center;
-    color: #000;
     padding: 30px;
 }
-.card{
-    margin: 10px;
-    transition: transform 0.2s;
+.card-title{
+    font-size: 1.25rem;
+    color: #000;
 }
 
-.card:hover{
-    transform: scale(1.05);
+.card-text{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0;
+    padding-bottom: 10px;
+    color: #000;
 }
-
 .package-head{
     color: #40A2E3;
 }
@@ -210,9 +200,7 @@ transition: transform 0.2s;
 .col{
     color: white;
 }
-.container:hover{
-    transform: scale(1.05);
-}
+
 .arrow{
     font-size: 10px;
     padding: 2px;
@@ -236,13 +224,12 @@ transition: transform 0.2s;
     padding: 40px;
 }
 .foot{
-    color: #40A2E3;
+    color: #FFFFFF;
 }
 
 #copy{
     text-align: center;
-    background: lavender;
-    color: #40A2E3;
+    color: #FFFFFF;
     width: 100%;
 }
 
@@ -280,91 +267,50 @@ transition: transform 0.2s;
     margin: 2%;
 }
 
-/* SERVICES SEC */
-.books{
-    background-color: lavender;
-    color: #40A2E3;
-    font-family: 'Playfair Display';
-    font-weight: bold;
-    font-size: large;
-    line-height: 2;
-    padding: 7% 15%;
-}
-.book-title{
-    font-family: 'Amiri Quran', serif;
-    font-size: larger;
-    margin: 2%;
-
-}
-.service-header{
-    font-family: 'Montserrat-Black';
-    margin-bottom: 3%;
-    color: magenta;
-    font-size: xx-large;
-}
-
-.services-price{
-    font-family: 'Montserrat-Bold';
-    background-color: #fff;
-    color: green;
-    font-weight: bold;
-    font-size: large;
-    padding: 7% 15%;
-    text-align: center;
-}
-.d-grid{
-    padding-bottom: 0;
-}
-.card-title{
-    color: black;
-    font-size: 2.0rem;
-    margin-bottom: 20%;
-    
-}
-.services-text{
-    font-family: 'Monserrat';
-    font-size: large;
-    line-height: 1.5;
-}
-
 /* MEDIA QUERY */
  @media (max-width: 576px){
-    .caption1{
-        font-family: 'Monserrat';
-        font-size: 1.3rem;
-        color: white;
-        letter-spacing: 2px;
+    #announcement-banner{
+        height: auto;
     }
-    .caption2{
-        font-size: small;
-        color: white;
+  #im1{    
+    background-position: center 40%;
+    }
+    #im2{
+    background-position: center 40%; 
+    }
+    .caption1 p{
+        font-family: 'Monserrat';
+        color: #000;
         letter-spacing: 2px;
-    } 
+        padding-bottom: 0px;
+        font-size: larger;
+        font-size: 1.0em;
+    }
+    .caption1 .caption2{
+        color: #FFFFFF;
+    }
     .carousel-caption{
         position: relative;
         bottom: 90px;
     } 
-     .cara-img{
-        height: 50%;
-        position: relative;
-        top: 40px;
-        width: 100%;
-        border-radius: 3%;
-        opacity: 90%;
-        margin-bottom: 0;
+   .card{
+    width: 90%;
+    margin: 3px;
          
-     }
+   }
+    #packages{
+        text-align: center;
+    }
+    #pack-head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
     #header{
         margin-bottom: 30px;
     }
-    p{
-        font-size: 14px;
-        letter-spacing: 0px;
-    }
-    h4{
-        font-size: 16px;
-        letter-spacing: 0px;
-    }
+  
     .fa{
         padding: 10px;
         font-size: smaller;
